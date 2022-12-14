@@ -23,7 +23,7 @@
 - MaterialUI components
 
 #### 🛠️ Backend features
-Listagem, criação, atialização e deleção de usuários
+Listagem, criação, atualização e delete de usuários
 
 #### 🖥️ Frontend features
 Login com autenticação por localstorage, atualização e deleção de profile, log out, e listagem de usuários
