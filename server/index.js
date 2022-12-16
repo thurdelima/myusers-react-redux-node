@@ -15,7 +15,7 @@ app.use(cors());
 const db = 'mongodb+srv://thurdelima:thurdelima@cluster0.h8m3ool.mongodb.net/test?retryWrites=true&w=majority&authSource=admin';
 //process.env.DATABASE;
 
-mongoose.connect(db)
+mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to Database'))
   .catch(err => {
     throw new Error(err)

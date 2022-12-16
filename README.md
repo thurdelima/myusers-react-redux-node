@@ -54,6 +54,8 @@ A aplicação irá iniciar automaticamente no browser na Url `http://localhost:3
 
 Aguarde a execução e a API estará rodando na Url  `http://localhost:8001/api/`
 
+rodar na versão 14 do node, para evitar erros.
+
 <br/>
 
 <h4 align="center">

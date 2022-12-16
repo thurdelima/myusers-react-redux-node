@@ -11,8 +11,9 @@ exports.jwtSign = (payload) => {
   return new Promise((resolve, reject) => {
     //AUTH_SECRET_OR_KEY
     //SESSION_EXPIRES_IN
+    let AUTH_SECRET_OR_KEY = '34r938gj9g82j89rg8298rj42gfg-392gj9';
 
-    jwt.sign(payload, 'fadsfdsvarg5345dsfdsf2fdsf243t34grt654re', { expiresIn: '1h' }, (err, token) => {
+    jwt.sign(payload, AUTH_SECRET_OR_KEY, { expiresIn: '1h' }, (err, token) => {
       if(err) {
         reject(err);
       } else {
